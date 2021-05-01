@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Slackey&display=swap');
+div{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: cornsilk;
+    font-size: 64px;
+    
+    
+}
+h1{
+    margin-top: 5%;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 76px;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+h2{
+    
+    font-family: 'Slackey', cursive;
+    margin-bottom: 4%;
+    font-size: 40px;
+    margin-left: 8%;
+
+}
+p{
+    font-size: 54px;
+    font-family: 'Mogra', cursive;
+    margin-left: 8%;
+
+}
+
+
+@media screen and (max-width:1060px) and (min-width:160px)  {
+
+    div{
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        color: cornsilk;
+        font-size: 64px;
+        
+        
+    }
+    h1{
+        margin-top: 5%;
+        font-family: 'Bungee Inline', cursive;
+        font-size: 60px;
+        margin-bottom: 5%;
+        margin-left: 8%;
+    }
+    h2{
+        
+        font-family: 'Slackey', cursive;
+        margin-bottom: 4%;
+        font-size: 28px;
+        margin-left: 8%;
+    
+    }
+    p{
+        font-size: 44px;
+        font-family: 'Mogra', cursive;
+        margin-left: 8%;
+    
+    }
+}
+
+
+
+

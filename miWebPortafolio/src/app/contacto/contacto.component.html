@@ -1,0 +1,49 @@
+<div class="card">
+<h1>Contactame</h1>
+<h3>Dejame un mensaje</h3>
+<mat-form-field appearance="fill">
+  
+
+    <mat-label>Nombre</mat-label>
+    <input matInput>
+
+  </mat-form-field>
+  <br>
+  <div class="example-container">
+    
+
+    <mat-form-field appearance="fill">
+      
+      <mat-label>Enter your email</mat-label>
+      <input matInput placeholder="pat@example.com" FormControl="email" required>
+      
+      <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+    
+    </mat-form-field>
+  </div>
+  <br>
+ 
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Telephone</mat-label>
+      <span matPrefix> + &nbsp;</span>
+      <input type="tel" matInput placeholder="00 555-555-1234">
+     
+
+      <mat-icon matSuffix>mode_edit</mat-icon>
+    </mat-form-field>
+  </form>
+
+
+ 
+  <br>
+  <mat-form-field appearance="fill">
+    <mat-label>Textarea</mat-label>
+    <textarea matInput></textarea>
+  </mat-form-field>
+
+
+<br>
+
+<button mat-raised-button color="warn">Enviar</button>
+</div>
